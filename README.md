@@ -5,7 +5,7 @@ The files testa-testg are test files.
 ## 1: Partitioning
 This file implements Fiduccia Mattheyses partitioning algorithm. Run file from CMD to pass input filename as a parameter. It will ask for number pf passes. The code is written with placement in mind. This means the node index and the number of nodes are left purposefully free, as apposed to a predefined number. Supports hyperedges
 ## 2: Placement
-This file includes averything from the previous file. The difference is it runs a recursive partitioning function that recursivly partitions the graph and places it onto a 16x16 grid. Supports hyperedgedgs
+This file includes averything from the previous file. The difference is it runs a recursive partitioning function that recursivly partitions the graph and places it onto a 16x16 grid. Uses quadrature placement. Supports hyperedgedgs
 ## 3: Routing
 This file includes averything from the previous file. After placing the nodes onto a 16x16 grid, this file puts it onto a 24x24 grid and implements WFS to try to connect all the edges in the file. Does not support hyperedges.
 
