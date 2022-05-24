@@ -14,11 +14,17 @@ This file includes averything from the previous file. After placing the nodes on
 This is the contents of testa:
 
 > 7 5
+>
 > 3 1 0 4 
+>
 > 3 3 2 0 
+>
 > 3 3 2 1 
+>
 > 2 5 2 
+>
 > 2 6 3 
+>
 > 3 4
 
 The first number of the first line (7) indicates how many nodes or vertices are in the graph of the input.
@@ -27,8 +33,8 @@ The second number of the first line (5) indicates how many edges are in the grap
 
 The subsequent lines are for each of the edges.
 
-The first number of each subsequent line is the number of nodes or vertices are in the edge (since the partitioning and the placement support hyper edges). However, if you want to run the Routing file, make sure all of the edges only contain two nodes or vertices.
+The first number of each subsequent line (3 of line 2 and so on) is the number of nodes or vertices are in the edge (since the partitioning and the placement support hyper edges). However, if you want to run the Routing file, make sure all of the edges only contain two nodes or vertices.
 
 The following numbers are the node indexes. They don't need to be in any order or start at any number at all.
 
-The last line is the constraints for the partition file. The first number is the minimum of the smaller partition.
+The last line is the constraints for the partition file. The first number (3) is the minimum of the smaller partition.
